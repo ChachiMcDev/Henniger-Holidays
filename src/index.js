@@ -1,10 +1,10 @@
 import { setVictim, setGameName, createdElephantPlayer, resetElephant } from './whiteelephant'
-import { initilizePage, renderGameName, renderGame } from './view'
+import { renderGame } from './view'
 import { setFilters, getFilters } from './filters'
 
 
 
-initilizePage();
+
 renderGame();
     //upon submit run this
 
@@ -53,7 +53,7 @@ document.querySelector('#filterby').addEventListener('change', function(event) {
 document.querySelector('#reset-elephant').addEventListener('click', (event) => {
     resetElephant();
     renderGame();
-    renderGameName();
+    
 })
 
 

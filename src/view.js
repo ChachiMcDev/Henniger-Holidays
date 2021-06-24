@@ -8,9 +8,6 @@ String.prototype.capitalize = function() {
 }
 
 
-const initilizePage = () => {
-    renderGameName();
-}
 
 
 const createPlayersHeader = () => {
@@ -152,4 +149,4 @@ const renderGame = () => {
 console.log('whyyyyy');
 
 
-export { initilizePage, renderGame }
+export {renderGame }
