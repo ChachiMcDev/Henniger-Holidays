@@ -149,7 +149,7 @@ const renderGame = () => {
 }
 
 
-
+console.log('whyyyyy');
 
 
 export { initilizePage, renderGame }
