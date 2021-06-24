@@ -146,7 +146,7 @@ const renderGame = () => {
 }
 
 
-console.log('whyyyyy');
+console.log('test test test');
 
 
 export {renderGame }
